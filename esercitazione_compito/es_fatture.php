@@ -10,7 +10,7 @@ $row=$arr_arr[$i];
 $cliente = $row["cliente"];
 $importo = $row["importo"];
 $pagato = $row["pagato"];
-$tot =+ $row["importo"]
+$tot =+ $row["importo"];
 echo "nome del cliente: ". $row["cliente"]. "<br>";
 echo "importo: ". $row["importo"]. "€<br>";
 echo "stato del pagamento (SI-NO-sospeso): ";
