@@ -14,9 +14,9 @@ $quantita = $row["quantita"];
 $prezzotot = $row["prezzo"]*$row["quantita"];
 $prezzoiva[$i] = $prezzotot+$prezzotot*0.22;
 $totprezzoiva += $prezzoiva[$i];
-echo "nome del prodotto: ". $row["nome"] . "<br>";
-echo "prezzo base del singolo prodotto: ". $row["prezzo"] . "€<br>";
-echo "quantità: ". $row["quantita"] . "<br>";
+echo "nome del prodotto: ". $nome . "<br>";
+echo "prezzo base del singolo prodotto: ". $prezzo . "€<br>";
+echo "quantità: ". $quantita . "<br>";
 echo "prezzo complessivo + iva: ". $prezzoiva[$i] . "€<br><br>";
 }
 echo "<h4>prezzo di tutti i prodotti + iva: ". $totprezzoiva . "€</h4>";
